@@ -1,0 +1,44 @@
+SUMMARY
+ - Build a simple twitter clone
+
+DESCRIPTION
+ - The app that should have the following workflow:
+
+SCREENS
+ - Welcome screen that allow user to signIn or SignUp
+ - Home Screen that
+     - Allow users to see all tweets on the app
+     - Every tweet should show the number of comments
+     - The user can filter tweets depends on
+       - Last recent created
+       - The number of comments
+ - Search screen that allow users to search on people on the app and can follow them.
+ - Signal Tweet screen that show only one tweet with all comments and sub-comments.
+
+Main Models-
+  User: (email, pw, full name, profile image, bio)
+  Tweet: (title, content, comments)
+  Comment: (content, comments)
+
+General rules
+  - All errors/exceptions should be handled gracefully, i.e. meaningful error messages
+  - Use as much JS as possible on pages, the less pages need to be refreshed, the better.
+  - Your code should be scalable, organized, readable and clean.
+  - Unit & Integration testing.
+
+Engineering!
+ - You should use the best architecture that fits the requirements.
+ - Front end
+    - Design is completely up to you, no designs will be provided.
+    - Use Bootstrap(v4), Any JS/Jquery plugins you deem necessary.
+    - Application should be fully responsive, intuitive and easy-to-use on all devices (desktop, mobile, tablets).
+- It's okay to add new models/fields/pages if needed
+ - Use your best way in search about users keep in mind you have a million of users.
+
+DELIVERABLES
+ - Link to the GitHub repository and include a README file with instructions on set up requirements.
+ - Link to the live production version of the application.
+ - Code documentation
+
+Bonus:-
+ - Better customized architecture wins!

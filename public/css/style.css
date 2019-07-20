@@ -1,0 +1,33 @@
+body {
+}
+
+/*footer Style*/
+footer.page-footer {
+    color: #fff;
+    background-color: #353A40 !important;
+    margin-top: 550px;
+}
+
+/*end Footer Style*/
+
+/*Start Profile Style*/
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.profile-header {
+    transform: translateY(5rem);
+}
+
+.profile img {
+    height: 200px;
+}
+
+/*End Profile Style*/
+
+.card-comments img {
+    width: 4rem;
+}
